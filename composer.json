@@ -1,0 +1,31 @@
+{
+  "name": "steein/emoji",
+  "homepage": "http://sourcecode.steein.ru",
+  "description": "Library, which provides a constant sorted after category for PHP-Emoji characters in PHP 7.",
+  "keywords": ["steein","emoji"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shamsudin Serderov",
+      "email": "support@steein.ru",
+      "homepage": "https://www.steein.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "SteeinEmoji\\": "src/SteeinEmoji"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+
+  "minimum-stability": "dev"
+}
