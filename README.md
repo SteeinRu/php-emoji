@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Library, which provides a constant sorted after category for PHP-Emoji characters in PHP 7.
 
-You can use the [editor on GitHub](https://github.com/SteeinSource/php-emoji/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+```php
 
-### Markdown
+use SteeinEmoji\PHPEmoji;
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+echo PHPEmoji::admissionTickets();      //static method
+echo PHPEmoji::CHAR_ADMISSION_TICKETS;  //const
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Usage
 
-### Jekyll Themes
+The SteeinEmoji\PHPEmoji::CHAR_ contains character constants that may be used directly:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SteeinSource/php-emoji/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```php
+\SteeinEmoji\PHPEmoji::CHAR_BABY_SYMBOL;
+```
 
-### Support or Contact
+The method by which one can obtain Emoji:
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```php
+\SteeinEmoji\PHPEmoji::babySymbol();
+```
+
+This library contains all the symbols listed on the website: [Full Emoji Data](http://unicode.org/emoji/charts/full-emoji-list.html)
