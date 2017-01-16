@@ -1,5 +1,5 @@
 {
-  "name": "steein/emoji",
+  "name": "steein/php_emoji",
   "homepage": "http://sourcecode.steein.ru",
   "description": "Library, which provides a constant sorted after category for PHP-Emoji characters in PHP 7.",
   "keywords": ["steein","emoji"],
