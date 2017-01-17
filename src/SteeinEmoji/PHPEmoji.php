@@ -8,7 +8,7 @@ use SteeinEmoji\Exceptions\UnknownException;
  *
  * Библиотека, которая предоставляет константы, отсортированные после категории для PHP-Emoji символов в PHP 7.
  *
- * @package     SteeinCrypt
+ * @package     SteeinEmoji
  *
  * @author      Shamsudin Serderov
  * @url         https://www.steein.ru
